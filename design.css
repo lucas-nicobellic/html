@@ -1,0 +1,45 @@
+.imagem-container {
+    display: block; /* Garante que a imagem seja um bloco */
+    margin: 20px auto; /* Centraliza a imagem */
+    max-width: 100%; /* Faz a imagem ajustar-se ao tamanho da tela */
+    width: 300px; /* Define um limite de largura de 300px */
+    height: auto; /* Ajusta a altura proporcionalmente */
+}
+.contato {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Disposição responsiva */
+    gap: 20px; /* Espaçamento entre os itens */
+    margin-top: 20px;
+}
+
+.membro {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 28px;
+    padding: 15px;
+    text-align: center;
+}
+
+.membro h3 {
+    color: #111;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+
+.membro p {
+    margin: 4px 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+.membro a {
+    text-decoration: none;
+    color: #f90;
+}
+
+.membro a:hover {
+    text-decoration: underline;
+}
+html {
+    scroll-behavior: smooth;
+}
